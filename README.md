@@ -33,7 +33,7 @@ pnpm dsh web
 
 建议将渠道助手分别从以下仓库安装：
 
-- `csmht/dsh-weixin-assistant`
-- `csmht/dsh-feishu-assistant`
+- [`csmht/dsh-weixin-assistant`](https://github.com/csmht/dsh-weixin-assistant)
+- [`csmht/dsh-feishu-assistant`](https://github.com/csmht/dsh-feishu-assistant)
 
 Node.js 版本要求为 `^22.19.0` 或 `>=24`。模型凭据与渠道凭据必须在本机单独配置，不得提交。
