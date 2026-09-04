@@ -1,0 +1,26 @@
+{
+  "name": "@deepseek-ai/dsh-api-monitor",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 的 API 用量与账户余额实时监控插件（宿主端统计 + 浏览器端仪表盘）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}

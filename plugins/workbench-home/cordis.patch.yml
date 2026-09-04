@@ -1,0 +1,4 @@
+# Load the host marker. The dsh.client manifest discovers the browser half.
+- insert:
+    - id: workbench-home
+      name: '@liang/dsh-workbench-home'
